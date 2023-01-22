@@ -9,6 +9,7 @@
         <!-- Sync trees -->
 	<project path="device/samsung/a51" name="device_samsung_a51" remote="dev" revision="lineage-19.1"/>
 	<project path="device/samsung/universal9611-common" name="device_samsung_universal9611-common" remote="dev" revision="lineage-19.1" />
+	<project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="lineage-custom" revision="lineage-19.1"/>
 	<project path="hardware/samsung" name="hardware_samsung" remote="dev" revision="lineage-19.1" />
 	<project path="kernel/samsung/a51" name="kernel_samsung_a51" remote="dev" revision="master" />
 	<project path="vendor/samsung/a51" name="vendor_samsung_a51" remote="dev" revision="lineage-19.1"/>
