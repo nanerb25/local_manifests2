@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote name="dev"
+		fetch="https://github.com/A51-Development" />
+
+	<remote name="lineage-custom"
+		fetch="https://github.com/LineageOS" />
+
+        <!-- Sync trees -->
+	<project path="device/samsung/universal9611-common" name="device_samsung_universal9611-common" remote="dev" revision="lineage-20" />
+	<project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="lineage-custom" revision="lineage-20"/>
+	<project path="hardware/samsung" name="android_hardware_samsung" remote="dev" revision="aosp" />
+	<project path="kernel/samsung/universal9611" name="kernel_samsung_universal9611" remote="dev" revision="Grass-Unified" />
+	<project path="vendor/samsung/universal9611-common" name="vendor_samsung_universal9611-common" remote="dev" revision="lineage-20"/>
+	<project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="lineage-custom" revision="lineage-20" />
+        <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="lineage-custom" revision="lineage-20" />
+        <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="lineage-custom" revision="lineage-20" />
+</manifest>
