@@ -16,5 +16,5 @@
 	<project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="los" />
 	<project path="kernel/samsung/universal8895" name="android_kernel_samsung_universal8895" remote="dev"/>
 	<project path="hardware/samsung" name="hardware_samsung" remote="pixel"/>
-        <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="dev" />
+        <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="8890q" />
 </manifest>
