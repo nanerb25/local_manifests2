@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <!-- Sync trees -->
+	<project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="dev" revision="master"/>
+</manifest>

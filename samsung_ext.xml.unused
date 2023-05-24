@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-        <!-- Sync trees -->
-	<project path="hardware/samsung-ext/sepolicy" name="hardware_samsung-extra_sepolicy" remote="dev" revision="master" />
-	<project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="dev" revision="android-13"/>
-	<project path="hardware/samsung-ext/FMRadio" name="hardware_samsung-extra_FMRadio" remote="dev" revision="master"/>
-</manifest>
