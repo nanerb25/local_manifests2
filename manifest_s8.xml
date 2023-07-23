@@ -3,9 +3,6 @@
         <remote name="dev"
 		fetch="https://github.com/roynatech2544"
 		revision="lineage-20.0" />
-	<remote name="8890q"
-		fetch="https://github.com/8890q"
-		revision="lineage-20.0" />
 	<remote name="los"
 		fetch="https://github.com/LineageOS"
 		revision="lineage-20" />
@@ -20,5 +17,5 @@
 		<linkfile src="Android.mk" dest="kernel/Android.mk"/>
 	</project>
 	<project path="hardware/samsung" name="hardware_samsung" remote="pixel"/>
-        <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="8890q" />
+        <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="dev" />
 </manifest>
