@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote name="dev"
+		fetch="https://github.com/Lenovo-SM6225-Fork"
+		revision="lineage-20.0" />
+
+        <!-- Sync trees -->
+	<project path="device/lenovo/sm6225-common" name="device_lenovo_sm6225-common" remote="dev" revision="evolution" />
+	<project path="device/lenovo/tb128fu" name="device_lenovo_tb128fu" remote="dev" revision="evolution"/>
+	<project path="kernel/lenovo/tb128fu" name="android_kernel_lenovo_tb128fu" remote="dev"/>
+	<project path="vendor/lenovo/sm6225-common" name="vendor_lenovo_sm6225-common" remote="dev" />
+	<project path="vendor/lenovo/tb128fu" name="vendor_lenovo_tb128fu" remote="dev" />
+</manifest>
