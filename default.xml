@@ -15,4 +15,6 @@
 	<project path="kernel/lenovo/tb128fu/KernelSU" name="tiann/KernelSU" remote="github" revision="refs/tags/v0.6.7"/>
         <!-- Ext -->
 	<project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="dev" revision="master"/>
+	<!-- Moto dolby -->
+	<project path="vendor/motorola/dolby" name="vendor_motorola_dolby" remote="dev" revision="master"/>
 </manifest>
