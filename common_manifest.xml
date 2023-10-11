@@ -5,7 +5,8 @@
 	<remote name="royna"
 		fetch="https://github.com/roynatech2544" />
 	<remote name="lineage-custom"
-		fetch="https://github.com/LineageOS" />
+		fetch="https://github.com/LineageOS"
+		revision="lineage-20"/>
 
         <!-- Sync trees -->
 	<project path="device/samsung/universal9611-common" name="device_samsung_universal9611-common" remote="dev" revision="lineage-20" />
@@ -13,7 +14,7 @@
 	<project path="hardware/samsung" name="android_hardware_samsung" remote="dev" revision="aosp" />
 	<project path="kernel/samsung/universal9611" name="kernel_samsung_universal9611" remote="dev" revision="Grass-Unified" />
 	<project path="vendor/samsung/universal9611-common" name="vendor_samsung_universal9611-common" remote="dev" revision="lineage-20"/>
-	<project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="lineage-custom" revision="lineage-20" />
-        <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="lineage-custom" revision="lineage-20" />
-        <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="lineage-custom" revision="lineage-20" />
+	<project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="lineage-custom"/>
+        <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="lineage-custom"/>
+        <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="lineage-custom"/>
 </manifest>
