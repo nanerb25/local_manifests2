@@ -8,7 +8,7 @@
 
 	<!-- Sync trees -->
 	<project path="device/samsung/r3q" name="android_device_samsung_r3q" remote="dev" />
-	<project path="kernel/samsung/r3q" name="android_kernel_samsung_r3q" remote="dev" revision="main"/>
+	<project path="kernel/samsung/r3q" name="android_kernel_samsung_r3q" remote="dev" revision="master"/>
 	<project path="vendor/samsung/r3q" name="android_vendor_samsung_r3q" remote="dev" />
 
 	<project path="hardware/samsung" name="PixelExperience/hardware_samsung" remote="github" revision="thirteen"/>
