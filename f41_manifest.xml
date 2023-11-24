@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <!-- Sync trees -->
-	<project path="device/samsung/f41" name="device_samsung_f41" remote="dev" revision="lineage-20"/>
-	<project path="vendor/samsung/f41" name="vendor_samsung_f41" remote="dev" revision="lineage-20"/>
+	<project path="device/samsung/f41" name="device_samsung_f41" remote="dev"/>
+	<project path="vendor/samsung/f41" name="vendor_samsung_f41" remote="dev"/>
 </manifest>

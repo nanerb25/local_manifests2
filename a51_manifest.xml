@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <!-- Sync trees -->
-	<project path="device/samsung/a51" name="device_samsung_a51" remote="dev" revision="lineage-20"/>
-	<project path="vendor/samsung/a51" name="vendor_samsung_a51" remote="dev" revision="lineage-20"/>
+	<project path="device/samsung/a51" name="device_samsung_a51" remote="dev"/>
+	<project path="vendor/samsung/a51" name="vendor_samsung_a51" remote="dev"/>
 </manifest>
