@@ -14,6 +14,6 @@
 	<project path="kernel/samsung/universal9611" name="kernel_samsung_universal9611" remote="dev" revision="Grass-Unified" />
 	<project path="vendor/samsung/universal9611-common" name="vendor_samsung_universal9611-common" remote="dev"/>
 	<project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="lineage-custom"/>
-        <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="lineage-custom"/>
+        <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="dev"/>
         <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="lineage-custom"/>
 </manifest>
