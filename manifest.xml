@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <remote name="dev"
-		fetch="https://github.com/roynatech2544"
+		fetch="https://github.com/Roynas-Android-Playground"
 		revision="lineage-20.0" />
 	<remote name="los"
 		fetch="https://github.com/LineageOS"
@@ -13,9 +13,7 @@
 	<project path="device/samsung/dream2lte" name="android_device_samsung_dream2lte" remote="dev" />
 	<project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="dev" />
 	<project path="kernel/samsung/universal8895" name="android_kernel_samsung_universal8895" remote="dev"/>
-	<project path="kernel/dummy" name="kernel_dummy" remote="dev-a51" revision="master">
-		<linkfile src="Android.mk" dest="kernel/Android.mk"/>
-	</project>
-	<project path="hardware/samsung" name="hardware_samsung" remote="pixel"/>
+	<project path="hardware/samsung-ext/interfaces" name="hardware_samsung-ext_interfaces" remote="dev" revision="master" />
+	<project path="hardware/samsung" name="hardware_samsung" remote="dev" revision="thirteen"/>
         <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="dev" />
 </manifest>
