@@ -5,9 +5,9 @@
 		revision="lineage-18.1"/>
 
         <!-- Sync trees -->
-	<project path="device/samsung/j7popelteskt" name="device_samsung_j7popelteskt" remote="royna" revision="" />
+	<project path="device/samsung/j7popelteskt" name="device_samsung_j7popelteskt" remote="royna"/>
         <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna" />
-        <project path="kernel/samsung/j7popelteskt" name="kernel_samsung_j7popelteskt" remote="royna" revision="master" />
+        <project path="kernel/samsung/j7popelteskt" name="kernel_samsung_j7popelteskt" remote="royna"/>
         <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna"/>
 	<project path="hardware/samsung" name="android_hardware_samsung" remote="royna" />
 	<project path="hardware/samsung/nfc" name="LineageOS/android_hardware_samsung_nfc"/>
