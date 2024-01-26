@@ -5,11 +5,14 @@
 		revision="lineage-18.1"/>
 
         <!-- Sync trees -->
-	<project path="device/samsung/j7popelteskt" name="device_samsung_j7popelteskt" remote="royna"/>
+	<project path="device/samsung/j7popelteskt" name="device_samsung_j7popelteskt" remote="royna" revision="eleven"/>
         <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna" />
         <project path="kernel/samsung/j7popelteskt" name="kernel_samsung_j7popelteskt" remote="royna"/>
         <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna"/>
 	<project path="hardware/samsung" name="android_hardware_samsung" remote="royna" />
-	<project path="hardware/samsung/nfc" name="LineageOS/android_hardware_samsung_nfc"/>
+	<project path="hardware/samsung/nfc" name="LineageOS/android_hardware_samsung_nfc" remote="github" revision="lineage-18.1"/>
 	<project path="vendor/samsung/j7popelteskt" name="vendor_samsung_j7popelteskt" remote="royna"/>
+
+	<!-- Used by NFC -->
+	<project path="device/generic/common" name="device/generic/common" groups="pdk" />
 </manifest>
