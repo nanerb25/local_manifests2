@@ -3,6 +3,9 @@
         <remote name="royna"
                 fetch="https://github.com/Roynas-Android-Playground"
 		revision="lineage-18.1"/>
+	<remote name="ek"
+		fetch="https://github.com/eurekadevelopment"
+		revision="lineage-20"/>
 
         <!-- Sync trees -->
 	<project path="device/samsung/j7popelteskt" name="device_samsung_j7popelteskt" remote="royna" revision="eleven"/>
@@ -15,4 +18,10 @@
 
 	<!-- Used by NFC -->
 	<project path="device/generic/common" name="device/generic/common" groups="pdk" />
+
+	<!-- SLSI Linaro -->
+	<project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="ek"/>
+	<project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="ek"/>
+	<project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="ek"/>
+	<project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="ek"/>
 </manifest>
