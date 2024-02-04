@@ -9,6 +9,6 @@
         <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna" />
         <project path="kernel/samsung/baffinvektt" name="kernel_samsung_baffinvektt" remote="royna"/>
         <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna"/>
-	<project path="hardware/samsung" name="android_hardware_samsung" remote="royna" />
+	<project path="hardware/samsung" name="rINanDO/android_hardware_samsung" remote="github" />
 	<project path="vendor/samsung/baffinvektt" name="vendor_samsung_baffinvektt" remote="royna"/>
 </manifest>
