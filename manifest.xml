@@ -11,7 +11,7 @@
         <!-- Sync trees -->
 	<!-- <project path="device/samsung/ks01ltexx" name="device_samsung_ks01ltexx" remote="dev"/> -->
 	<!-- <project path="device/samsung/msm8974-common" name="device_samsung_msm8974-common" remote="dev"/> -->
-        <project path="kernel/samsung/msm8974" name="kernel_samsung_msm8974" remote="dev"/>
+	<!-- <project path="kernel/samsung/msm8974" name="kernel_samsung_msm8974" remote="dev"/> -->
 	<project path="hardware/samsung" name="LineageOS/android_hardware_samsung"/>
 	<project path="vendor/samsung" name="vendor_samsung" remote="dev"/>
 
@@ -19,4 +19,5 @@
 	<project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna" revision="lineage-18.1"/>
 	<project path="device/samsung/ks01ltexx" name="device_samsung_ks01ltexx" remote="royna"/>
 	<project path="device/samsung/msm8974-common" name="device_samsung_msm8974-common" remote="royna"/>
+	<project path="kernel/samsung/msm8974" name="kernel_samsung_msm8974" remote="royna"/>
 </manifest>
