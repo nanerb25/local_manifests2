@@ -10,7 +10,7 @@
 	<project path="vendor/samsung/r3q" name="android_vendor_samsung_r3q" remote="dev" />
 
 	<project path="hardware/samsung" name="PixelExperience/hardware_samsung" remote="github" revision="thirteen"/>
-	<project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="dev" revision="master"/>
+	<project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="dev" revision="lineage-20"/>
 	<!-- KSU -->
 	<project path="kernel/samsung/r3q/KernelSU" name="tiann/KernelSU" remote="github" revision="refs/tags/v0.7.0"/>
 </manifest>
