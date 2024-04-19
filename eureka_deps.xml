@@ -43,4 +43,7 @@
                  name="android_hardware_samsung_slsi-linaro_config" remote="eureka-slsi-linaro" />
         <project path="hardware/samsung_slsi-linaro/openmax"
                  name="android_hardware_samsung_slsi-linaro_openmax" remote="eureka-slsi-linaro" />
+
+
+	<remove-project path="hardware/samsung" />
 </manifest>
