@@ -19,9 +19,12 @@
 	<remote name="pe"
                 fetch="https://github.com/PixelExperience-Blobs"
 		revision="fourteen"/>
+	<remote name="hossain"
+                fetch="https://github.com/hossain1410"
+		revision="lineage-21"/>
 
         <!-- Eureka -->
-        <project path="device/samsung/a52q" name="android_device_samsung_a52q" remote="simon"/>
+        <project path="device/samsung/a52q" name="android_device_samsung_a52q" remote="hossain"/>
 	<project path="device/samsung/sm7125-common" name="android_device_samsung_sm7125-common" remote="simon"/>
         <project path="kernel/samsung/sm7125" name="android_kernel_samsung_sm7125" remote="simon" revision="lineage-21" />
         <project path="vendor/samsung/a52q" name="android_vendor_samsung_a52q" remote="pe"/>
