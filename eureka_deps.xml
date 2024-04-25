@@ -11,24 +11,20 @@
                 fetch="https://github.com/Roynas-Android-Playground"
 		revision="lineage-21"/>
 	<remote name="simon"
-                fetch="https://github.com/Simon1511"
-		revision="lineage-21"/>
+                fetch="https://github.com/Simon1511"/>
 	<remote name="simon0"
-                fetch="https://github.com/Simon1511"
-		revision="lineage-20"/>
+                fetch="https://github.com/Simon1511"/>
 	<remote name="pe"
-                fetch="https://github.com/PixelExperience-Blobs"
-		revision="fourteen"/>
+                fetch="https://github.com/PixelExperience-Blobs" />
 	<remote name="hossain"
-                fetch="https://github.com/hossain1410"
-		revision="lineage-21"/>
+                fetch="https://github.com/hossain1410"/>
 
         <!-- Eureka -->
-        <project path="device/samsung/a52q" name="android_device_samsung_a52q" remote="hossain"/>
-	<project path="device/samsung/sm7125-common" name="android_device_samsung_sm7125-common" remote="simon"/>
+        <project path="device/samsung/a52q" name="android_device_samsung_a52q" remote="hossain" revision="lineage-21" />
+	<project path="device/samsung/sm7125-common" name="android_device_samsung_sm7125-common" remote="simon" revision="lineage-21" />
         <project path="kernel/samsung/sm7125" name="android_kernel_samsung_sm7125" remote="simon" revision="lineage-21" />
-        <project path="vendor/samsung/a52q" name="android_vendor_samsung_a52q" remote="pe"/>
-	<project path="vendor/samsung/sm7125-common" name="android_vendor_samsung_sm7125-common" remote="simon0"/>
+        <project path="vendor/samsung/a52q" name="android_vendor_samsung_a52q" remote="pe" revision="fourteen"/>
+	<project path="vendor/samsung/sm7125-common" name="android_vendor_samsung_sm7125-common" remote="simon0" revision="lineage-20" />
 
         <!-- LineageOS -->
         <project path="hardware/samsung_slsi/libbt"
