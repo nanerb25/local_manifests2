@@ -19,7 +19,7 @@
 
         <!-- Eureka -->
         <project path="device/samsung/a52q" name="android_device_samsung_a52q" remote="hossain" revision="lineage-21" />
-	<project path="device/samsung/sm7125-common" name="android_device_samsung_sm7125-common" remote="simon" revision="lineage-21" />
+	<project path="device/samsung/sm7125-common" name="android_device_samsung_sm7125-common" remote="hossain" revision="lineage-21" />
         <project path="kernel/samsung/sm7125" name="android_kernel_samsung_sm7125" remote="simon" revision="lineage-21" />
         <project path="vendor/samsung/a52q" name="vendor_samsung_a52q" remote="pe" revision="fourteen"/>
 	<project path="vendor/samsung/sm7125-common" name="vendor_samsung_sm7125-common" remote="pe" revision="fourteen" />
