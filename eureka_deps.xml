@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         
-	<remote name="eureka-slsi-linaro"
-		fetch="https://github.com/eurekadevelopment"
-		revision="lineage-21"/>
+
         <remote name="lineage-cp"
                 fetch="https://github.com/LineageOS"
 		revision="lineage-21"/>
@@ -40,15 +38,5 @@
         <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna"/>
         <project path="hardware/samsung" name="android_hardware_samsung" remote="royna" revision="fourteen"/>
 
-        <!-- SLSI Linaro -->
-	<project path="hardware/samsung_slsi-linaro/graphics"
-                 name="android_hardware_samsung_slsi-linaro_graphics" remote="eureka-slsi-linaro" />
-	<project path="hardware/samsung_slsi-linaro/interfaces"
-                 name="android_hardware_samsung_slsi-linaro_interfaces" remote="eureka-slsi-linaro" />
-        <project path="hardware/samsung_slsi-linaro/exynos"
-                 name="android_hardware_samsung_slsi-linaro_exynos" remote="eureka-slsi-linaro" />
-        <project path="hardware/samsung_slsi-linaro/config"
-                 name="android_hardware_samsung_slsi-linaro_config" remote="eureka-slsi-linaro" />
-        <project path="hardware/samsung_slsi-linaro/openmax"
-                 name="android_hardware_samsung_slsi-linaro_openmax" remote="eureka-slsi-linaro" />
+        
 </manifest>
