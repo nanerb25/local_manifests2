@@ -38,7 +38,7 @@
         <!-- Royna's forks and repos -->
         <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna"/>
         <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna"/>
-        <project path="hardware/samsung" name="android_hardware_samsung" remote="linag" revision="fourteen"/>
+        <project path="hardware/samsung" name="android_hardware_samsung" remote="linag" revision="lineage-21"/>
 
         
 </manifest>
