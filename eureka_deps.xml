@@ -6,8 +6,7 @@
                 fetch="https://github.com/LineageOS"
 		revision="lineage-21"/>
         <remote name="royna"
-                fetch="https://github.com/Roynas-Android-Playground"
-		revision="lineage-21"/>
+                fetch="https://github.com/Roynas-Android-Playground"/>
 	<remote name="simon"
                 fetch="https://github.com/Simon1511"/>
 	<remote name="pe"
@@ -36,8 +35,8 @@
                  remote="lineage-cp" />
 
         <!-- Royna's forks and repos -->
-        <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna"/>
-        <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna"/>
+        <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna" revision="lineage-21" />
+        <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna" revision="lineage-21" />
         <project path="hardware/samsung" name="android_hardware_samsung" remote="linag" revision="lineage-21"/>
 
         
