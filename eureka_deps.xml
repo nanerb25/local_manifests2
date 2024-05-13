@@ -13,8 +13,8 @@
                 fetch="https://github.com/PixelExperience-Blobs" />
 	<remote name="hossain"
                 fetch="https://github.com/hossain1410"/>
-	<remote name="linag"
-                fetch="https://github.com/LineageOS"/>
+	<remote name="arrow"
+                fetch="https://github.com/ArrowOS"/>
 
         <!-- DT -->
         <project path="device/samsung/a52q" name="android_device_samsung_a52q" remote="hossain" revision="lineage-21" />
@@ -37,7 +37,7 @@
         <!-- Royna's forks and repos -->
         <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna" revision="lineage-21" />
         <project path="hardware/samsung-extra/interfaces" name="hardware_samsung-extra_interfaces" remote="royna" revision="lineage-21" />
-        <project path="hardware/samsung" name="android_hardware_samsung" remote="linag" revision="lineage-21"/>
+        <project path="hardware/samsung" name="android_hardware_samsung" remote="arrow" revision="lineage-21"/>
 
         
 </manifest>
